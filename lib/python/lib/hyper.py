@@ -10,9 +10,9 @@ hyper(m, 3, r) -> m ** r"""
         raise ValueError("argument 2 must be a positive")
     if n == 1 :
         return m + r
-    if n == 2 :
+    elif n == 2 :
         return m * r
-    if n == 3 :
+    elif n == 3 :
         return m ** r
     else :
         res = 1
